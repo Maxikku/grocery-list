@@ -1,0 +1,62 @@
+
+
+.item-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0 20px 0;
+    border-bottom: 1px #fbc1bb solid;
+}
+
+.item-name {
+    cursor: pointer;
+}
+
+
+.remove-button {
+    color: white;
+    background-color: red;
+}
+
+
+.quantity {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ec645b;
+    background: white;
+    border-radius: 50px;
+    font-size: 12px;
+    color: #ec645b;
+    min-width: 70px;
+    justify-content: space-between;
+}
+
+.remove {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ec645b;
+    background: white;
+    border-radius: 50px;
+    font-size: 12px;
+    color: #ec645b;
+    min-width: 70px;
+    justify-content: space-between;
+}
+
+button {
+    background: transparent;
+    border: none;
+    margin: 3px;
+    color: #ec645b;
+}
+button:focus {
+    outline: 0;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.completed {
+    text-decoration: line-through;
+}
